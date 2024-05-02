@@ -1,11 +1,10 @@
 import {createGlobalStyle} from 'styled-components'
 
-const GlobalStyle = createGlobalStyle`
+const globalStyle = createGlobalStyle `
     * {
         padding: 0;
         margin: 0;
         box-sizing: border-box;
-
     }
 
     html, body, #root {
@@ -13,7 +12,7 @@ const GlobalStyle = createGlobalStyle`
     }
 
     body {
-        background-color: #F8FDFF;
+        background-color: #F8FDFF; // This sets the background color
     }
 
     button {
@@ -26,6 +25,6 @@ const GlobalStyle = createGlobalStyle`
         text-decoration: none;
         outline: none;
     }
-    `;
+` ;
 
-export default GlobalStyle;
+export default globalStyle;
